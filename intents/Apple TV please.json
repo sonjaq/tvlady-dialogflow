@@ -7,13 +7,7 @@
     {
       "resetContexts": false,
       "action": "SIMPLAY",
-      "affectedContexts": [
-        {
-          "name": "AppleTVplease-followup",
-          "parameters": {},
-          "lifespan": 2
-        }
-      ],
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
@@ -23,7 +17,8 @@
             "Let\u0027s listen to some music!",
             "Is it Taylor Swift time?",
             "Are you planning on making out soon?",
-            "Is this a party?"
+            "Is this a party?",
+            "Do a little Dance. Make a little love. Get down. Tonight."
           ]
         }
       ],

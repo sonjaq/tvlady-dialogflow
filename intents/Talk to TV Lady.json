@@ -1,30 +1,24 @@
 {
-  "id": "c25b27b6-c3a9-4b70-b6a7-0698544a64ad",
-  "name": "Talk to TV Lady",
+  "id": "d85d5325-842a-4109-905e-eed78aabcdf5",
+  "name": "Talk to TV lady",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [
-        {
-          "name": "TalktoTVLady-followup",
-          "parameters": {},
-          "lifespan": 2
-        }
-      ],
+      "action": "input.unknown",
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "en",
           "speech": [
-            "Beep beep boop",
-            "bee boo bop",
-            "How may I be of service?",
-            "You seek Yoda?",
-            "These are not the droids you are looking for",
-            "What can I help you with today?"
+            "What would you like to listen to?",
+            "I am here to serve.",
+            "Do or do not, there is no try.",
+            "Bee boo bop",
+            "Welcome, friend!"
           ]
         }
       ],
@@ -37,11 +31,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1514687751,
+  "lastUpdate": 1514708104,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "GOOGLE_ASSISTANT_WELCOME"
-    }
-  ]
+  "events": []
 }
