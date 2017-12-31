@@ -1,15 +1,14 @@
 {
-  "id": "291241f5-1525-4980-b77c-70da19368344",
-  "name": "Apple TV please",
+  "id": "c25b27b6-c3a9-4b70-b6a7-0698544a64ad",
+  "name": "Talk to TV Lady",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "SIMPLAY",
       "affectedContexts": [
         {
-          "name": "AppleTVplease-followup",
+          "name": "TalktoTVLady-followup",
           "parameters": {},
           "lifespan": 2
         }
@@ -20,10 +19,12 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Let\u0027s listen to some music!",
-            "Is it Taylor Swift time?",
-            "Are you planning on making out soon?",
-            "Is this a party?"
+            "Beep beep boop",
+            "bee boo bop",
+            "How may I be of service?",
+            "You seek Yoda?",
+            "These are not the droids you are looking for",
+            "What can I help you with today?"
           ]
         }
       ],
@@ -34,9 +35,13 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1514623589,
+  "lastUpdate": 1514687751,
   "fallbackIntent": false,
-  "events": []
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
 }

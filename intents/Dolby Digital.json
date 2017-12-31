@@ -1,29 +1,22 @@
 {
-  "id": "291241f5-1525-4980-b77c-70da19368344",
-  "name": "Apple TV please",
+  "id": "573aabf7-939e-4a56-b768-f6271aa86447",
+  "name": "Dolby Digital",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "SIMPLAY",
-      "affectedContexts": [
-        {
-          "name": "AppleTVplease-followup",
-          "parameters": {},
-          "lifespan": 2
-        }
-      ],
+      "action": "MSDOLBY_DIGITAL",
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "en",
           "speech": [
-            "Let\u0027s listen to some music!",
-            "Is it Taylor Swift time?",
-            "Are you planning on making out soon?",
-            "Is this a party?"
+            "7.1 engaged",
+            "You got it!",
+            "D. O. N. E. Done."
           ]
         }
       ],
@@ -36,7 +29,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1514623589,
+  "lastUpdate": 1514687013,
   "fallbackIntent": false,
   "events": []
 }

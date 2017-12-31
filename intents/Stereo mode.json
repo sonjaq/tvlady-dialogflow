@@ -1,29 +1,23 @@
 {
-  "id": "291241f5-1525-4980-b77c-70da19368344",
-  "name": "Apple TV please",
+  "id": "3239cf84-1c1c-4c8b-ae10-7d15b0cad19f",
+  "name": "Stereo mode",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "SIMPLAY",
-      "affectedContexts": [
-        {
-          "name": "AppleTVplease-followup",
-          "parameters": {},
-          "lifespan": 2
-        }
-      ],
+      "action": "MSSTEREO",
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "en",
           "speech": [
-            "Let\u0027s listen to some music!",
-            "Is it Taylor Swift time?",
-            "Are you planning on making out soon?",
-            "Is this a party?"
+            "Keep it nice an clean.",
+            "Disabling the magic sauce.",
+            "2.0 channels binaural joy",
+            "Stereo? Really? I prefer mono."
           ]
         }
       ],
@@ -36,7 +30,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1514623589,
+  "lastUpdate": 1514687212,
   "fallbackIntent": false,
   "events": []
 }

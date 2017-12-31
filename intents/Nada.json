@@ -1,12 +1,11 @@
 {
-  "id": "de368548-4512-4648-8b90-b703d288d475",
-  "name": "turn on the xbox",
+  "id": "88f9ae93-25c8-44cd-a6fe-d2feca0c06fd",
+  "name": "Nada",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "xbox_on",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -14,10 +13,9 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Switching to Xbox",
-            "Are you going to watch Netflix or Hulu?",
-            "Ooohh... is Tyler gonna play?",
-            "Pinball? Battle Royale? Fighting? Sports ball? What\u0027s it gonna be?"
+            "No prob Bob",
+            "You got it dude",
+            "You\u0027re welcome."
           ]
         }
       ],
@@ -28,9 +26,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1514586925,
+  "lastUpdate": 1514689783,
   "fallbackIntent": false,
   "events": []
 }

@@ -1,7 +1,7 @@
 {
   "id": "ef691540-f43e-44f6-8347-2ff169fb3416",
   "name": "Default Fallback Intent",
-  "auto": true,
+  "auto": false,
   "contexts": [],
   "responses": [
     {
@@ -14,18 +14,12 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "I didn\u0027t get that. Can you say it again?",
-            "I missed what you said. Say it again?",
-            "Sorry, could you say that again?",
-            "Sorry, can you say that again?",
-            "Can you say that again?",
-            "Sorry, I didn\u0027t get that.",
-            "Sorry, what was that?",
-            "One more time?",
-            "What was that?",
-            "Say that again?",
-            "I didn\u0027t get that.",
-            "I missed that."
+            "I\u0027ve got a bad feeling about this.",
+            "Do or do not. There is no try.",
+            "No way, hoes A",
+            "You fought the AI and the AI won",
+            "Your parents were no-good junk traders. They sold you for drinking money.",
+            "I do what you tell me to do, not what you want me to do"
           ]
         }
       ],

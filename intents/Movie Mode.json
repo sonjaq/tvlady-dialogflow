@@ -1,29 +1,22 @@
 {
-  "id": "291241f5-1525-4980-b77c-70da19368344",
-  "name": "Apple TV please",
+  "id": "7c30c2d7-1a3c-440a-9d09-f92d22bedda8",
+  "name": "Movie Mode",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "SIMPLAY",
-      "affectedContexts": [
-        {
-          "name": "AppleTVplease-followup",
-          "parameters": {},
-          "lifespan": 2
-        }
-      ],
+      "action": "MSMOVIE",
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "en",
           "speech": [
-            "Let\u0027s listen to some music!",
-            "Is it Taylor Swift time?",
-            "Are you planning on making out soon?",
-            "Is this a party?"
+            "Roger roger",
+            "You got it, hon",
+            "If it was anyone else, no, but okay"
           ]
         }
       ],
@@ -36,7 +29,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1514623589,
+  "lastUpdate": 1514686800,
   "fallbackIntent": false,
   "events": []
 }

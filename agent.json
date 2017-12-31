@@ -1,5 +1,5 @@
 {
-  "description": "",
+  "description": "Connects to TV Lady",
   "language": "en",
   "disableInteractionLogs": false,
   "googleAssistant": {
@@ -18,13 +18,48 @@
       {
         "intentId": "291241f5-1525-4980-b77c-70da19368344",
         "signInRequired": false
+      },
+      {
+        "intentId": "de368548-4512-4648-8b90-b703d288d475",
+        "signInRequired": false
+      },
+      {
+        "intentId": "30992f95-00a5-4b61-96cb-82628548e74e",
+        "signInRequired": false
+      },
+      {
+        "intentId": "573aabf7-939e-4a56-b768-f6271aa86447",
+        "signInRequired": false
+      },
+      {
+        "intentId": "8fb30e35-61ed-4d53-90b1-115fcd8f8905",
+        "signInRequired": false
+      },
+      {
+        "intentId": "3239cf84-1c1c-4c8b-ae10-7d15b0cad19f",
+        "signInRequired": false
+      },
+      {
+        "intentId": "7c30c2d7-1a3c-440a-9d09-f92d22bedda8",
+        "signInRequired": false
+      },
+      {
+        "intentId": "c9b974a5-fa8a-483d-b65b-203a5e03030d",
+        "signInRequired": false
       }
     ],
     "systemIntents": [],
     "endIntentIds": [
-      "de368548-4512-4648-8b90-b703d288d475",
       "291241f5-1525-4980-b77c-70da19368344",
-      "834aac71-b065-46f4-ad16-7cf2d7742d2d"
+      "834aac71-b065-46f4-ad16-7cf2d7742d2d",
+      "30992f95-00a5-4b61-96cb-82628548e74e",
+      "8fb30e35-61ed-4d53-90b1-115fcd8f8905",
+      "573aabf7-939e-4a56-b768-f6271aa86447",
+      "3239cf84-1c1c-4c8b-ae10-7d15b0cad19f",
+      "ef691540-f43e-44f6-8347-2ff169fb3416",
+      "88f9ae93-25c8-44cd-a6fe-d2feca0c06fd",
+      "de368548-4512-4648-8b90-b703d288d475",
+      "c9b974a5-fa8a-483d-b65b-203a5e03030d"
     ],
     "oAuthLinking": {
       "required": false,
@@ -37,7 +72,7 @@
   },
   "defaultTimezone": "America/Chicago",
   "webhook": {
-    "url": "https://76cffcfe.ngrok.io/api/",
+    "url": "https://tvlady.localtunnel.me/api/",
     "headers": {
       "": ""
     },

@@ -1,0 +1,33 @@
+{
+  "id": "16912c6c-e78a-4204-9dfa-4864f239aa2a",
+  "parentId": "c25b27b6-c3a9-4b70-b6a7-0698544a64ad",
+  "rootParentId": "c25b27b6-c3a9-4b70-b6a7-0698544a64ad",
+  "name": "Talk to TV Lady - custom",
+  "auto": true,
+  "contexts": [
+    "TalktoTVLady-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "TalktoTVLady.TalktoTVLady-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

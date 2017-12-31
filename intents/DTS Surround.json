@@ -1,29 +1,22 @@
 {
-  "id": "291241f5-1525-4980-b77c-70da19368344",
-  "name": "Apple TV please",
+  "id": "c9b974a5-fa8a-483d-b65b-203a5e03030d",
+  "name": "DTS Surround",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "SIMPLAY",
-      "affectedContexts": [
-        {
-          "name": "AppleTVplease-followup",
-          "parameters": {},
-          "lifespan": 2
-        }
-      ],
+      "action": "MSDTS_SURROUND",
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "en",
           "speech": [
-            "Let\u0027s listen to some music!",
-            "Is it Taylor Swift time?",
-            "Are you planning on making out soon?",
-            "Is this a party?"
+            "Digital Theater Sound Neural X engaged",
+            "DTS Neural X here we go",
+            "You got it, boss"
           ]
         }
       ],
@@ -36,7 +29,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1514623589,
+  "lastUpdate": 1514687525,
   "fallbackIntent": false,
   "events": []
 }
