@@ -1,0 +1,21 @@
+[
+  {
+    "value": "receiver",
+    "synonyms": [
+      "receiver",
+      "stereo"
+    ]
+  },
+  {
+    "value": "power status",
+    "synonyms": [
+      "power status"
+    ]
+  },
+  {
+    "value": "input",
+    "synonyms": [
+      "input"
+    ]
+  }
+]

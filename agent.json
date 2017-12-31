@@ -1,0 +1,54 @@
+{
+  "description": "",
+  "language": "en",
+  "disableInteractionLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "leafdot-190521",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "6be6e780-77b8-4404-b09c-174a78b54b16",
+        "signInRequired": false
+      },
+      {
+        "intentId": "834aac71-b065-46f4-ad16-7cf2d7742d2d",
+        "signInRequired": false
+      },
+      {
+        "intentId": "291241f5-1525-4980-b77c-70da19368344",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [
+      "de368548-4512-4648-8b90-b703d288d475",
+      "291241f5-1525-4980-b77c-70da19368344",
+      "834aac71-b065-46f4-ad16-7cf2d7742d2d"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true
+  },
+  "defaultTimezone": "America/Chicago",
+  "webhook": {
+    "url": "https://76cffcfe.ngrok.io/api/",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": true,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": false
+}

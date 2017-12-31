@@ -1,0 +1,32 @@
+{
+  "id": "834aac71-b065-46f4-ad16-7cf2d7742d2d",
+  "name": "power off",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "PWSTANDBY",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Shutting down.",
+            "Goodnight, friend"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514623940,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "6be6e780-77b8-4404-b09c-174a78b54b16",
+  "name": "Dual shock me",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "SIBD",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Switching to PS4",
+            "Playstation Time",
+            "First party exclusives, huh?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514623898,
+  "fallbackIntent": false,
+  "events": []
+}
